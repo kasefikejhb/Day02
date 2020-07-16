@@ -6,15 +6,15 @@
 /*   By: kasefike <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 15:41:20 by kasefike          #+#    #+#             */
-/*   Updated: 2020/07/10 15:57:25 by kasefike         ###   ########.fr       */
+/*   Updated: 2020/07/16 09:55:57 by kasefike         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
 
-void	ft_putchar(char b)
+void	ft_putchar(char c)
 {
-	write(1, &b, 1);
+	write(1, &c, 1);
 }
 void 	ft_print_reverse_alphabet(void)
 

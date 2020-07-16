@@ -6,32 +6,31 @@
 /*   By: kasefike <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 13:55:17 by kasefike          #+#    #+#             */
-/*   Updated: 2020/07/10 14:28:23 by kasefike         ###   ########.fr       */
+/*   Updated: 2020/07/16 09:55:00 by kasefike         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include<unistd.h>
 
-void ft_putchar (char k)
+void ft_putchar (char c)
 {
-	write (1,&k,1);
+	write (1,&c,1);
 }
 void ft_print_alphabet(void)
 {
-	char al;
-
-	al='a';
-	while (al>='z')
+	char alp;
+	alp='a';
+	while (alp<='z')
 	{
-		ft_putchar(al);
-		++al
+		ft_putchar(alp);
+		++alp
 	
 	}
 
 int main (void)
 {
-ft_print_alphabet
-return 0;
+	ft_print_alphabet;
+	return 0;
 }
 
